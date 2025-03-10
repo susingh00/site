@@ -1,1 +1,2 @@
 Access-Control-Allow-Origin:*
+X-Frame-Options: ALLOW-FROM https://feature-iframe--genting--wppopen.aem.page/
