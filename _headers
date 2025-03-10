@@ -1,2 +1,4 @@
-Access-Control-Allow-Origin:*
+/*
+Access-Control-Allow-Origin: *
 X-Frame-Options: ALLOW-FROM https://feature-iframe--genting--wppopen.aem.page/
+Content-Security-Policy: frame-ancestors 'self' https://feature-iframe--genting--wppopen.aem.page/;
