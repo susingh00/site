@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Card</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .card {
+            width: 300px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2>Random Card</h2>
+        <p id="randomText"></p>
+    </div>
+    <div class="card">
+        <h2>Random Card</h2>
+        <p id="randomText"></p>
+    </div>    <div class="card">
+        <h2>Random Card</h2>
+        <p id="randomText"></p>
+    </div>    <div class="card">
+        <h2>Random Card</h2>
+        <p id="randomText"></p>
+    </div>    <div class="card">
+        <h2>Random Card</h2>
+        <p id="randomText"></p>
+    </div>    <div class="card">
+        <h2>Random Card</h2>
+        <p id="randomText"></p>
+    </div>    <div class="card">
+        <h2>Random Card</h2>
+        <p id="randomText"></p>
+    </div>    <div class="card">
+        <h2>Random Card</h2>
+        <p id="randomText"></p>
+    </div>    <div class="card">
+        <h2>Random Card</h2>
+        <p id="randomText"></p>
+    </div>    <div class="card">
+        <h2>Random Card</h2>
+        <p id="randomText"></p>
+    </div>    <div class="card">
+        <h2>Random Card</h2>
+        <p id="randomText"></p>
+    </div>    <div class="card">
+        <h2>Random Card</h2>
+        <p id="randomText"></p>
+    </div>    <div class="card">
+        <h2>Random Card</h2>
+        <p id="randomText"></p>
+    </div>    <div class="card">
+        <h2>Random Card</h2>
+        <p id="randomText"></p>
+    </div>    <div class="card">
+        <h2>Random Card</h2>
+        <p id="randomText"></p>
+    </div>    <div class="card">
+        <h2>Random Card</h2>
+        <p id="randomText"></p>
+    </div>    <div class="card">
+        <h2>Random Card</h2>
+        <p id="randomText"></p>
+    </div>    <div class="card">
+        <h2>Random Card</h2>
+        <p id="randomText"></p>
+    </div>    <div class="card">
+        <h2>Random Card</h2>
+        <p id="randomText"></p>
+    </div>    <div class="card">
+        <h2>Random Card</h2>
+        <p id="randomText"></p>
+    </div>    <div class="card">
+        <h2>Random Card</h2>
+        <p id="randomText"></p>
+    </div>    <div class="card">
+        <h2>Random Card</h2>
+        <p id="randomText"></p>
+    </div>    <div class="card">
+        <h2>Random Card</h2>
+        <p id="randomText"></p>
+    </div>    <div class="card">
+        <h2>Random Card</h2>
+        <p id="randomText"></p>
+    </div>
+    <script>
+        const randomParagraphs = [
+            "The journey of a thousand miles begins with a single step.",
+            "Life is what happens when you're busy making other plans.",
+            "Do what you can, with what you have, where you are.",
+            "In the middle of every difficulty lies opportunity."
+        ];
+        
+        document.getElementById("randomText").innerText = 
+            randomParagraphs[Math.floor(Math.random() * randomParagraphs.length)];
+    </script>
+</body>
+</html>
