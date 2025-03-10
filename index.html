@@ -111,6 +111,8 @@
         
         document.getElementById("randomText").innerText = 
             randomParagraphs[Math.floor(Math.random() * randomParagraphs.length)];
+            window.parent.postMessage("Hello from iframe!", "https://feature-iframe--genting--wppopen.aem.page");
+
     </script>
 </body>
 </html>
